@@ -1,0 +1,7 @@
+D:\Layerd\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\bin\Debug\AndrSandwich.Business.dll
+D:\Layerd\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\bin\Debug\AndrSandwich.Business.pdb
+D:\Layerd\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\bin\Debug\AndrSandwich.DataAccess.dll
+D:\Layerd\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\bin\Debug\AndrSandwich.DataAccess.pdb
+D:\Layerd\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\obj\Debug\MySandwitchFactory.Business.csprojResolveAssemblyReference.cache
+D:\Layerd\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\obj\Debug\AndrSandwich.Business.dll
+D:\Layerd\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\obj\Debug\AndrSandwich.Business.pdb

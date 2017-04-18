@@ -1,0 +1,4 @@
+D:\Project\Layerd\AndrSandwich\AndrSandwich.DataAccess\bin\Debug\AndrSandwich.DataAccess.dll
+D:\Project\Layerd\AndrSandwich\AndrSandwich.DataAccess\bin\Debug\AndrSandwich.DataAccess.pdb
+D:\Project\Layerd\AndrSandwich\AndrSandwich.DataAccess\obj\Debug\AndrSandwich.DataAccess.dll
+D:\Project\Layerd\AndrSandwich\AndrSandwich.DataAccess\obj\Debug\AndrSandwich.DataAccess.pdb
