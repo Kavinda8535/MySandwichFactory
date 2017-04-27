@@ -8,10 +8,10 @@ using System.Web.Security;
 using DotNetOpenAuth.AspNet;
 using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
-using AndrSandwich.Web.UI.Filters;
-using AndrSandwich.Web.UI.Models;
+using MySandwitchFactory.Web.UI.Filters;
+using MySandwitchFactory.Web.UI.Models;
 
-namespace AndrSandwich.Web.UI.Controllers
+namespace MySandwitchFactory.Web.UI.Controllers
 {
     [Authorize]
     [InitializeSimpleMembership]

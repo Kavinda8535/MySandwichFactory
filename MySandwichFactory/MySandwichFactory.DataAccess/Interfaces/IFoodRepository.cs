@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AndrSandwich.DataAccess.DataModels;
+using MySandwitchFactory.DataAccess.DataModels;
 
-namespace AndrSandwich.DataAccess
+namespace MySandwitchFactory.DataAccess
 {
     public interface IFoodRepository
     {

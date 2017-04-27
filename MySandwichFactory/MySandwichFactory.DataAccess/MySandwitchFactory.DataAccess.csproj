@@ -7,8 +7,8 @@
     <ProjectGuid>{E56A501E-D5D3-4A52-9DFD-18FE8950CDEA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AndrSandwich.DataAccess</RootNamespace>
-    <AssemblyName>AndrSandwich.DataAccess</AssemblyName>
+    <RootNamespace>MySandwitchFactory.DataAccess</RootNamespace>
+    <AssemblyName>MySandwitchFactory.DataAccess</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

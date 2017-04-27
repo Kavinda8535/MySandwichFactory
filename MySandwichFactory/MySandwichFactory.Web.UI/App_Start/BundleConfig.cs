@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace AndrSandwich.Web.UI
+namespace MySandwitchFactory.Web.UI
 {
     public class BundleConfig
     {

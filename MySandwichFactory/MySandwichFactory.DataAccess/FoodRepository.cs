@@ -3,12 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AndrSandwich.DataAccess.DataModels;
+using MySandwitchFactory.DataAccess.DataModels;
 
-namespace AndrSandwich.DataAccess
+namespace MySandwitchFactory.DataAccess
 {
     public class FoodRepository : IFoodRepository
     {
+        public FoodRepository(IFoodRepository foodRepository)
+        {
+            
+        }
+
         public List<SandwichModel> GetAllSandwiches()
         {
             List<SandwichModel> result = new List<SandwichModel>();

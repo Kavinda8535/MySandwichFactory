@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using AndrSandwich.Web.UI;
-using AndrSandwich.Web.UI.Controllers;
+using MySandwitchFactory.Web.UI;
+using MySandwitchFactory.Web.UI.Controllers;
 
-namespace AndrSandwich.Web.UI.Tests.Controllers
+namespace MySandwitchFactory.Web.UI.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest

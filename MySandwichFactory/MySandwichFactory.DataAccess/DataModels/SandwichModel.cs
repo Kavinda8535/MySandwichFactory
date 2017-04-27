@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AndrSandwich.DataAccess.DataModels
+namespace MySandwitchFactory.DataAccess.DataModels
 {
     public class SandwichModel
     {

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AndrSandwich.DataAccess;
-using AndrSandwich.DataAccess.DataModels;
+using MySandwitchFactory.DataAccess;
+using MySandwitchFactory.DataAccess.DataModels;
 
-namespace AndrSandwich.Business
+namespace MySandwitchFactory.Business
 {
     public class FoodService : IFoodService
     {

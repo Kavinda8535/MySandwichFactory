@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace AndrSandwich.Web.UI
+namespace MySandwitchFactory.Web.UI
 {
     public class FilterConfig
     {

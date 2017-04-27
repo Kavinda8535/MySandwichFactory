@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace AndrSandwich.Web.UI
+namespace MySandwitchFactory.Web.UI
 {
     public static class WebApiConfig
     {

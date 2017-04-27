@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Web.WebPages.OAuth;
-using AndrSandwich.Web.UI.Models;
+using MySandwitchFactory.Web.UI.Models;
 
-namespace AndrSandwich.Web.UI
+namespace MySandwitchFactory.Web.UI
 {
     public static class AuthConfig
     {

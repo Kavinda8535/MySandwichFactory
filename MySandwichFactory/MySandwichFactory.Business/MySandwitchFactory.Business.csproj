@@ -7,8 +7,8 @@
     <ProjectGuid>{3588798F-0662-49E7-BAFB-C5F9A240FE2D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AndrSandwich.Business</RootNamespace>
-    <AssemblyName>AndrSandwich.Business</AssemblyName>
+    <RootNamespace>MySandwitchFactory.Business</RootNamespace>
+    <AssemblyName>MySandwitchFactory.Business</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

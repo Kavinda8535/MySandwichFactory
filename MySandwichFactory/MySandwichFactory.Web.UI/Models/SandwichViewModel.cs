@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MySandwitchFactory.Web.UI.Models
+namespace MySandwitchFactory.Web.UI
 {
     public class SandwichViewModel
     {

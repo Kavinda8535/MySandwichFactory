@@ -9,8 +9,8 @@
     <ProjectGuid>{2F30FDE0-6B74-49BF-8993-9C9209B6DD6E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AndrSandwich.Web.UI.Tests</RootNamespace>
-    <AssemblyName>AndrSandwich.Web.UI.Tests</AssemblyName>
+    <RootNamespace>MySandwitchFactory.Web.UI.Tests</RootNamespace>
+    <AssemblyName>MySandwitchFactory.Web.UI.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
