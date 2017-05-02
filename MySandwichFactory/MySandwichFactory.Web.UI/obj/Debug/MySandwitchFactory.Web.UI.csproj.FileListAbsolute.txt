@@ -77,7 +77,6 @@ E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\Sys
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\WebGrease.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\WebMatrix.Data.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\WebMatrix.WebData.dll
-E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\MySandwitchFactory.DataAccess.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\MySandwitchFactory.Business.pdb
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\AutoMapper.xml
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\Microsoft.Practices.ServiceLocation.pdb
@@ -102,7 +101,10 @@ E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\Dot
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\DotNetOpenAuth.OAuth.xml
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\DotNetOpenAuth.OpenId.xml
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
-E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\MySandwitchFactory.DataAccess.pdb
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\obj\Debug\MySandwitchFactory.Web.UI.csprojResolveAssemblyReference.cache
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\obj\Debug\MySandwitchFactory.Web.UI.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\obj\Debug\MySandwitchFactory.Web.UI.pdb
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\MySandwitchFactory.Common.Domains.dll
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\MySandwitchFactory.Portal.Common.dll
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\MySandwitchFactory.Common.Domains.pdb
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\MySandwitchFactory.Portal.Common.pdb

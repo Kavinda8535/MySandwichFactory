@@ -3,16 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MySandwitchFactory.DataAccess.DataModels;
+using MySandwitchFactory.Common.Domains;
+using MySandwitchFactory.Portal.Common;
+using SandwichModel = MySandwitchFactory.Common.Domains.SandwichModel;
 
 namespace MySandwitchFactory.DataAccess
 {
     public class FoodRepository : IFoodRepository
     {
-        public FoodRepository(IFoodRepository foodRepository)
-        {
+        //public FoodRepository(IFoodRepository foodRepository)
+        //{
             
-        }
+        //}
 
         public List<SandwichModel> GetAllSandwiches()
         {
@@ -41,5 +43,23 @@ namespace MySandwitchFactory.DataAccess
 
             return result;
         }
+
+        public CompanyDetailsModel GetCompanyName()
+        {
+            var companyDetailsModel = new CompanyDetailsModel
+            {
+                CompanyName = "Sandwich Factory",
+                CompanyMoto = "Socialization and food is pretty much inseparable",
+                StartDate = DateTime.Now
+            };
+
+            return companyDetailsModel;
+        }
+
+
+        //public List<SandwichModel> GetAllSandwiches()
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

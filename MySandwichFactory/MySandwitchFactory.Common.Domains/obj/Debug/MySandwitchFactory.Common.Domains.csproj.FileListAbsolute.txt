@@ -1,0 +1,4 @@
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwitchFactory.Common.Domains\bin\Debug\MySandwitchFactory.Common.Domains.dll
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwitchFactory.Common.Domains\bin\Debug\MySandwitchFactory.Common.Domains.pdb
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwitchFactory.Common.Domains\obj\Debug\MySandwitchFactory.Common.Domains.dll
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwitchFactory.Common.Domains\obj\Debug\MySandwitchFactory.Common.Domains.pdb

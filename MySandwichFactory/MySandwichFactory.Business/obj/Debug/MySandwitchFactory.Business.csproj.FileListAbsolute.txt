@@ -7,8 +7,10 @@ D:\Layerd\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\obj\De
 D:\Layerd\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\obj\Debug\AndrSandwich.Business.pdb
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\bin\Debug\MySandwitchFactory.Business.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\bin\Debug\MySandwitchFactory.Business.pdb
-E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\bin\Debug\MySandwitchFactory.DataAccess.dll
-E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\bin\Debug\MySandwitchFactory.DataAccess.pdb
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\bin\Debug\MySandwitchFactory.Common.Domains.dll
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\bin\Debug\MySandwitchFactory.Portal.Common.dll
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\bin\Debug\MySandwitchFactory.Common.Domains.pdb
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\bin\Debug\MySandwitchFactory.Portal.Common.pdb
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\obj\Debug\MySandwitchFactory.Business.csprojResolveAssemblyReference.cache
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\obj\Debug\MySandwitchFactory.Business.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Business\obj\Debug\MySandwitchFactory.Business.pdb

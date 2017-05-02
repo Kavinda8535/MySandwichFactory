@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MySandwitchFactory.DataAccess.DataModels
+namespace MySandwitchFactory.Common.Domains
 {
     public class SandwichModel
     {
@@ -15,4 +15,5 @@ namespace MySandwitchFactory.DataAccess.DataModels
         public double Price { get; set; }
 
     }
+    
 }

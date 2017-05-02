@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MySandwitchFactory.DataAccess.DataModels;
+using MySandwitchFactory.Common.Domains;
+
 
 namespace MySandwitchFactory.Business
 {
     public interface IFoodService
     {
-        List<SandwichModel> GetAllSandwiches();
+       GetSandwichResult GetAllSandwiches();
     }
 }

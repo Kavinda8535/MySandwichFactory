@@ -1,0 +1,7 @@
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwitchFactory.Portal.Common\bin\Debug\MySandwitchFactory.Portal.Common.dll
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwitchFactory.Portal.Common\bin\Debug\MySandwitchFactory.Portal.Common.pdb
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwitchFactory.Portal.Common\bin\Debug\MySandwitchFactory.Common.Domains.dll
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwitchFactory.Portal.Common\bin\Debug\MySandwitchFactory.Common.Domains.pdb
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwitchFactory.Portal.Common\obj\Debug\MySandwitchFactory.Portal.Common.csprojResolveAssemblyReference.cache
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwitchFactory.Portal.Common\obj\Debug\MySandwitchFactory.Portal.Common.dll
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwitchFactory.Portal.Common\obj\Debug\MySandwitchFactory.Portal.Common.pdb

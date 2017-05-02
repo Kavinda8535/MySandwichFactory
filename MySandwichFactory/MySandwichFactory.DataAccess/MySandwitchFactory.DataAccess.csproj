@@ -39,11 +39,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataModels\SandwichModel.cs" />
     <Compile Include="FoodRepository.cs" />
-    <Compile Include="Interfaces\IFoodRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MySandwichFactory.Business\MySandwitchFactory.Business.csproj">
+      <Project>{3588798f-0662-49e7-bafb-c5f9a240fe2d}</Project>
+      <Name>MySandwitchFactory.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MySandwitchFactory.Common.Domains\MySandwitchFactory.Common.Domains.csproj">
+      <Project>{a3cb1e9a-4b25-43d2-978e-84efb95e6cad}</Project>
+      <Name>MySandwitchFactory.Common.Domains</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MySandwitchFactory.Portal.Common\MySandwitchFactory.Portal.Common.csproj">
+      <Project>{8d8ed2f4-8e23-410d-a0f9-d40c63dfcf1b}</Project>
+      <Name>MySandwitchFactory.Portal.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

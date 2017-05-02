@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3588798F-0662-49E7-BAFB-C5F9A240FE2D}</ProjectGuid>
+    <ProjectGuid>{A3CB1E9A-4B25-43D2-978E-84EFB95E6CAD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MySandwitchFactory.Business</RootNamespace>
-    <AssemblyName>MySandwitchFactory.Business</AssemblyName>
+    <RootNamespace>MySandwitchFactory.Common.Domains</RootNamespace>
+    <AssemblyName>MySandwitchFactory.Common.Domains</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,23 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FoodService.cs" />
-    <Compile Include="GetSandwichResult.cs" />
-    <Compile Include="Interfaces\IFoodService.cs" />
+    <Compile Include="CompanyDetailsModel.cs" />
+    <Compile Include="SandwichModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MySandwitchFactory.Common.Domains\MySandwitchFactory.Common.Domains.csproj">
-      <Project>{a3cb1e9a-4b25-43d2-978e-84efb95e6cad}</Project>
-      <Name>MySandwitchFactory.Common.Domains</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MySandwitchFactory.Portal.Common\MySandwitchFactory.Portal.Common.csproj">
-      <Project>{8d8ed2f4-8e23-410d-a0f9-d40c63dfcf1b}</Project>
-      <Name>MySandwitchFactory.Portal.Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
