@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MySandwitchFactory.Common.Domains;
-using MySandwitchFactory.Portal.Common;
+using MySandwitchFactory.DataAccess;
+using IFoodRepository = MySandwitchFactory.Portal.Common.IFoodRepository;
 
 namespace MySandwitchFactory.Business
 {
@@ -31,10 +32,17 @@ namespace MySandwitchFactory.Business
         public GetSandwichResult GetAllSandwiches()
         {
             var result = new GetSandwichResult();
-            
-            result.SandwichModel = _foodRepository.GetAllSandwiches();
-            result.CompanyDetailsModel = _foodRepository.GetCompanyName();
-            //throw new NotImplementedException();
+
+            if (_foodRepository != null)
+            {
+                result.SandwichModel = _foodRepository.GetAllSandwiches();
+                result.CompanyDetailsModel = _foodRepository.GetCompanyName();
+                //throw new NotImplementedException();
+            }
+            else
+            {
+                throw new ArgumentException("Cannot get Food Contents");
+            }
 
             return result;
         }

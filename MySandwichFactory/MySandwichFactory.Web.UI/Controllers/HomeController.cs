@@ -22,7 +22,12 @@ namespace MySandwitchFactory.Web.UI.Controllers
         {
             _foodService = foodService;
         }
-        
+
+        public HomeController()
+        {
+            throw new NotImplementedException();
+        }
+
 
         public ActionResult Index()
         {

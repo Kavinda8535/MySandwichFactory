@@ -46,7 +46,6 @@ D:\Layerd\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bi
 D:\Layerd\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\obj\Debug\MySandwitchFactory.Web.UI.Tests.csprojResolveAssemblyReference.cache
 D:\Layerd\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\obj\Debug\AndrSandwich.Web.UI.Tests.dll
 D:\Layerd\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\obj\Debug\AndrSandwich.Web.UI.Tests.pdb
-E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\obj\Debug\MySandwitchFactory.Web.UI.Tests.csprojResolveAssemblyReference.cache
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\MySandwitchFactory.Web.UI.Tests.dll.config
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\MySandwitchFactory.Web.UI.Tests.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\MySandwitchFactory.Web.UI.Tests.pdb
@@ -61,11 +60,14 @@ E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\b
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\System.Web.WebPages.Razor.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\EntityFramework.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\System.Web.Optimization.dll
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\Microsoft.Practices.Unity.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\MySandwitchFactory.Business.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\DotNetOpenAuth.AspNet.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\WebGrease.dll
-E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\MySandwitchFactory.DataAccess.dll
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\MySandwitchFactory.Portal.Common.dll
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\MySandwitchFactory.Common.Domains.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\DotNetOpenAuth.Core.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\DotNetOpenAuth.OAuth.dll
@@ -81,19 +83,19 @@ E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\b
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\EntityFramework.xml
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\Microsoft.Practices.Unity.xml
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\MySandwitchFactory.Business.pdb
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\DotNetOpenAuth.AspNet.xml
-E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\MySandwitchFactory.DataAccess.pdb
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\MySandwitchFactory.Portal.Common.pdb
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\MySandwitchFactory.Common.Domains.pdb
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\DotNetOpenAuth.Core.xml
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\DotNetOpenAuth.OAuth.xml
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\DotNetOpenAuth.OpenId.xml
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\obj\Debug\MySandwitchFactory.Web.UI.Tests.csprojResolveAssemblyReference.cache
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\obj\Debug\MySandwitchFactory.Web.UI.Tests.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\obj\Debug\MySandwitchFactory.Web.UI.Tests.pdb
-E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\Microsoft.Practices.Unity.dll
-E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
-E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\Microsoft.Practices.Unity.xml
-E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
-E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml

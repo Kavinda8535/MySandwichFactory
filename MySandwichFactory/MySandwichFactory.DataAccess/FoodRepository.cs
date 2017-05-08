@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using MySandwitchFactory.Common.Domains;
 using MySandwitchFactory.Portal.Common;
 using SandwichModel = MySandwitchFactory.Common.Domains.SandwichModel;
@@ -11,14 +8,14 @@ namespace MySandwitchFactory.DataAccess
 {
     public class FoodRepository : IFoodRepository
     {
-        //public FoodRepository(IFoodRepository foodRepository)
+        //public FoodRepository()
         //{
-            
+
         //}
 
         public List<SandwichModel> GetAllSandwiches()
         {
-            List<SandwichModel> result = new List<SandwichModel>();
+            var result = new List<SandwichModel>();
             var obj1 = new SandwichModel { SandwichName = "Chicken Paillard", SandwichType = "Non-Veg", Ingrediant = "Lightly spiced grilled chicken topped with sun dried tomatos, olives, tomatoes and lettuce.", Rate = 3, Price = 530.00 };
             var obj2 = new SandwichModel { SandwichName = "Beef Master", SandwichType = "Non-Veg", Ingrediant = "For the health conscious beef lover. A filling sandwich packed with sliced cured beef, tomato, grilled onions and lettuce topped with mustard.", Rate = 4, Price = 540.00 };
             var obj3 = new SandwichModel { SandwichName = "Trim Chicken", SandwichType = "Non-Veg", Ingrediant = "A healthy and wholesome Chicken sandwich, layered with grilled chicken, tomato, lettuce and grilled onions. ", Rate = 3, Price = 430.00 };

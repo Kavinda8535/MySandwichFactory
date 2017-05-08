@@ -3,14 +3,14 @@ D:\Layerd\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\bin\
 D:\Layerd\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\obj\Debug\MySandwitchFactory.DataAccess.csprojResolveAssemblyReference.cache
 D:\Layerd\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\obj\Debug\AndrSandwich.DataAccess.dll
 D:\Layerd\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\obj\Debug\AndrSandwich.DataAccess.pdb
-E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\obj\Debug\MySandwitchFactory.DataAccess.csprojResolveAssemblyReference.cache
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\bin\Debug\MySandwitchFactory.DataAccess.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\bin\Debug\MySandwitchFactory.DataAccess.pdb
-E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\bin\Debug\MySandwitchFactory.Business.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\bin\Debug\MySandwitchFactory.Common.Domains.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\bin\Debug\MySandwitchFactory.Portal.Common.dll
-E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\bin\Debug\MySandwitchFactory.Business.pdb
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\bin\Debug\MySandwitchFactory.Common.Domains.pdb
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\bin\Debug\MySandwitchFactory.Portal.Common.pdb
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\obj\Debug\MySandwitchFactory.DataAccess.csprojResolveAssemblyReference.cache
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\obj\Debug\MySandwitchFactory.DataAccess.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\obj\Debug\MySandwitchFactory.DataAccess.pdb
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\bin\Debug\MySandwitchFactory.Business.dll
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.DataAccess\bin\Debug\MySandwitchFactory.Business.pdb
