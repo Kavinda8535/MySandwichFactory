@@ -108,3 +108,5 @@ E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\MyS
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\obj\Debug\MySandwitchFactory.Web.UI.csprojResolveAssemblyReference.cache
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\obj\Debug\MySandwitchFactory.Web.UI.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\obj\Debug\MySandwitchFactory.Web.UI.pdb
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\MySandwitchFactory.DataAccess.dll
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI\bin\MySandwitchFactory.DataAccess.pdb

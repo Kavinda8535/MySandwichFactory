@@ -1,5 +1,57 @@
-﻿@{
+﻿@model MySandwitchFactory.Web.UI.Models.HomeIndexViewModel
+
+@{
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>MySandwich Factory</h2>
+
+
+<div id="SandwichList">
+    
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.SandwichViewModel.SandwichName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SandwichViewModel.SandwichType)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SandwichViewModel.Ingrediant)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SandwichViewModel.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SandwichViewModel.Rate)
+                </th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            @foreach (var sm in Model.AllSandwichList.AllSandwich)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(m => sm.SandwichName).ToString().ToUpper()
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => sm.SandwichType)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => sm.Ingrediant)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => sm.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => sm.Rate).ToString()
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

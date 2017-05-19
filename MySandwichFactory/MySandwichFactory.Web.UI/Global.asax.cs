@@ -6,6 +6,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using MySandwitchFactory.Web.UI.Infastructure;
 
 namespace MySandwitchFactory.Web.UI
 {
@@ -23,6 +24,12 @@ namespace MySandwitchFactory.Web.UI
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterAuth();
+            Bootstrapper.Initialise(); // Initialize Bootstapper class ... This will register the Unity container in the application.
+        }
+
+        private void Application_EndRequest(object sender, EventArgs eventArgs)
+        {
+            Bootstrapper.DisposePerRequest(HttpContext.Current.Items);
         }
     }
 }

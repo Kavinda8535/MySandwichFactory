@@ -41,7 +41,7 @@ namespace MySandwitchFactory.Business
             }
             else
             {
-                throw new ArgumentException("Cannot get Food Contents");
+                throw new ArgumentException("Cannot get Food Deta");
             }
 
             return result;

@@ -3,6 +3,8 @@ using Microsoft.Practices.Unity;
 using MySandwitchFactory.Business;
 using MySandwitchFactory.Web.UI.Infastructure;
 using MySandwitchFactory.Web.UI.Services;
+using MySandwitchFactory.Portal.Common;
+using MySandwitchFactory.DataAccess;
 
 namespace MySandwitchFactory.Web.UI.App_Start
 {
@@ -27,6 +29,8 @@ namespace MySandwitchFactory.Web.UI.App_Start
                 ));
 
             container.RegisterType<IFoodService, FoodService>();
+            container.RegisterType<IFoodRepository, FoodRepository>();
+
 
         }
     }
