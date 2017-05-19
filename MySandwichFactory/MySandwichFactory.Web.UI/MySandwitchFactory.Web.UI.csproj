@@ -262,6 +262,16 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Images\Sandwiches\Beef-Master.jpeg" />
+    <Content Include="Images\Sandwiches\chicken_paillard.jpg" />
+    <Content Include="Images\Sandwiches\godfather-graham-avenue-meats.jpg" />
+    <Content Include="Images\Sandwiches\Lively-TUNA-SANDWICH.jpg" />
+    <Content Include="Images\Sandwiches\slim-beef.jpeg" />
+    <Content Include="Images\Sandwiches\Trim-chicken.jpg" />
+    <Content Include="Images\Sandwiches\tuna-Might-sandwich.jpg" />
+    <Content Include="Images\Sandwiches\Turkey Sandwich.jpg" />
+    <Content Include="Images\Sandwiches\veg-cheese-sandwiches.jpg" />
+    <Content Include="Images\Sandwiches\veggie-master-sandwich.jpg" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />

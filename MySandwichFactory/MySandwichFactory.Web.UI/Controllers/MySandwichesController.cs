@@ -54,7 +54,7 @@ namespace MySandwitchFactory.Web.UI.Controllers
             foreach (var sm in getSandwichResult.SandwichModel)
             {
                 SandwichViewModel sandwichViewModelItems = new SandwichViewModel(sm.SandwichName, sm.SandwichType,
-                    sm.Ingrediant, sm.Rate, sm.Price);
+                    sm.Ingrediant, sm.Rate, sm.Price, sm.Image);
 
                 sadwichList.Add(sandwichViewModelItems);
 

@@ -15,13 +15,15 @@ namespace MySandwitchFactory.Web.UI
         {
         }
 
-        public SandwichViewModel(string sandwichName, string sandwichType, string ingrediants, int rate, double price)
+        public SandwichViewModel(string sandwichName, string sandwichType, string ingrediants, int rate, double price, string image)
         {
             SandwichName = sandwichName;
             SandwichType = sandwichType;
             Ingrediant = ingrediants;
             Rate = rate;
             Price = price;
+            Image = image;
+
         }
 
         #endregion
@@ -45,6 +47,9 @@ namespace MySandwitchFactory.Web.UI
         //[DisplayFormat(ConvertEmptyStringToNull = true, NullDisplayText = "-")]
         [Display(Name = "Price")]
         public double Price { get; set; }
+
+        [Display(Name = "Image")]
+        public string Image { get; set; }
 
     }
 }

@@ -13,7 +13,7 @@ namespace MySandwitchFactory.Common.Domains
         public string Ingrediant { get; set; }
         public int Rate { get; set; }
         public double Price { get; set; }
-
+        public string Image { get; set; }
     }
     
 }
