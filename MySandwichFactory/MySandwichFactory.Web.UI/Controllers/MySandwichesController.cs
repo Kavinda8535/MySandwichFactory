@@ -17,10 +17,10 @@ namespace MySandwitchFactory.Web.UI.Controllers
 
         readonly IFoodService _foodService;
 
-        public MySandwichesController() : this(new FoodService())
-        {
+        //public MySandwichesController() : this(new FoodService())
+        //{
 
-        }
+        //}
 
         public MySandwichesController(IFoodService foodService)
         {
@@ -87,6 +87,13 @@ namespace MySandwitchFactory.Web.UI.Controllers
             SandwichViewModel sandwichViewModels1; //= Mapper.Map<SandwichViewModel>(sandwiches);
 
             return homeIndexViewModel;
+        }
+
+        public ActionResult CustomerOrders(CompanyDetailsViewModel companyDetailsViewModel)
+        {
+            int i = 0;
+            i++;
+            return Json(i, JsonRequestBehavior.AllowGet);
         }
     }
 }

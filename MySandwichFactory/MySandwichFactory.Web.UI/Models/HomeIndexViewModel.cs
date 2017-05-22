@@ -12,6 +12,8 @@ namespace MySandwitchFactory.Web.UI.Models
         public HomeSandwichListPartialViewModel AllSandwichList { get; set; }
         
         public CompanyDetailsViewModel Details { get; set; }
+
+        
     }
 
     public class HomeSandwichListPartialViewModel
@@ -31,6 +33,7 @@ namespace MySandwitchFactory.Web.UI.Models
         #endregion
 
         public List<SandwichViewModel> AllSandwich { get; set; }
+
 
     }
 }

@@ -4,7 +4,7 @@ using MySandwitchFactory.Business;
 using MySandwitchFactory.Web.UI.Infastructure;
 using MySandwitchFactory.Web.UI.Services;
 using MySandwitchFactory.Portal.Common;
-using MySandwitchFactory.DataAccess;
+using MySandwitchFactory.Common;
 
 namespace MySandwitchFactory.Web.UI.App_Start
 {

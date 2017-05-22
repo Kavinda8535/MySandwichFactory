@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using Microsoft.Practices.Unity;
 using MySandwitchFactory.Business;
-using MySandwitchFactory.DataAccess;
+using MySandwitchFactory.Common;
 using MySandwitchFactory.Portal.Common;
 
 namespace MySandwitchFactory.Web.UI.Infastructure

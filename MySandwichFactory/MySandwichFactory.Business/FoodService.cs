@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MySandwitchFactory.Common.Domains;
-using MySandwitchFactory.DataAccess;
+using MySandwitchFactory.Common;
 using IFoodRepository = MySandwitchFactory.Portal.Common.IFoodRepository;
 
 namespace MySandwitchFactory.Business

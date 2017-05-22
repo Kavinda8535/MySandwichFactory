@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MySandwitchFactory.Portal.Common;
 
-namespace MySandwitchFactory.DataAccess
+namespace MySandwitchFactory.Common
 {
     //public class Repository<T> : IRepository<T> where T : class , IEntity
     //{

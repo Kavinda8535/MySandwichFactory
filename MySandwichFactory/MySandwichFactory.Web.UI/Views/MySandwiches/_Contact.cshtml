@@ -1,0 +1,54 @@
+﻿@model MySandwitchFactory.Web.UI.Models.CompanyDetailsViewModel
+ 
+<script src="~/Scripts/jquery-1.7.1.min.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+<div id="">
+    
+    @using (Ajax.BeginForm("CustomerOrders", new AjaxOptions()
+    {
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = "Orders"
+    }))
+    {
+
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+        <fieldset>
+            <legend>Contact</legend>
+            <table>
+                <tr>
+                    <td>
+                        <h2>
+                            @Html.DisplayFor(m => m.CompanyName)
+                        </h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.DisplayFor(m => m.CompanyMoto)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.DisplayFor(m => m.StartDate)
+                    </td>
+                    <td>
+                        <p>
+                            <input type="submit" value="Order" />
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    }
+</div>
+
+<div id="Orders">
+    
+    Number of Orders : @{
+        decimal i = 0;
+        i++; }
+
+</div>      
