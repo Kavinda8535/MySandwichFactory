@@ -181,6 +181,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IocConfiguration.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Models\BeverageIndexViewModel.cs" />
+    <Compile Include="Controllers\BeveragesController.cs" />
     <Compile Include="Controllers\MySandwichesController.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -195,6 +197,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\BeverageViewModel.cs" />
     <Compile Include="Models\CompanyDetailsViewModel.cs" />
     <Compile Include="Models\HomeIndexViewModel.cs" />
     <Compile Include="Models\SandwichViewModel.cs" />
@@ -262,6 +265,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Images\Beverages\WatermelonJuice.jpg" />
     <Content Include="Images\Sandwiches\Beef-Master.jpeg" />
     <Content Include="Images\Sandwiches\chicken_paillard.jpg" />
     <Content Include="Images\Sandwiches\godfather-graham-avenue-meats.jpg" />
@@ -328,6 +332,7 @@
     <Content Include="Views\UnityDemo\Index.cshtml" />
     <Content Include="Views\MySandwiches\Index.cshtml" />
     <Content Include="Views\MySandwiches\_Contact.cshtml" />
+    <Content Include="Views\Beverages\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

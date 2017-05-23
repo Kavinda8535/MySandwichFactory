@@ -1,0 +1,58 @@
+﻿@model MySandwitchFactory.Web.UI.Controllers.BeverageIndexViewModel
+
+
+@{
+    ViewBag.Title = "Beverages";
+}
+
+<h2>Beverages</h2>
+
+<div id="BeverageList">
+
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Beverages.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Beverages.Category)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Beverages.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Beverages.Sweetness)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Beverages.Image)
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var bm in Model.AllBeveragesList.AllBeverages)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(m => bm.Name).ToString().ToUpper()
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => bm.Category).ToString()
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => bm.Price).ToString()
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => bm.Sweetness).ToString()
+                    </td>
+                    <td style="width: 100px; height: 100px;">
+                        @*@Html.DisplayFor(m => bm.Image)*@
+                        @*<img src="@Url.Content(bm.Image)" alt="Image" style="height:100px;width:100px;" />*@
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

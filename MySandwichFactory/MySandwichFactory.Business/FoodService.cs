@@ -29,6 +29,13 @@ namespace MySandwitchFactory.Business
         //    var result = _foodRepository.GetAllSandwiches();
         //    return result;
         //}
+
+
+        /// <summary>
+        /// Gets all sandwiches.
+        /// </summary>
+        /// <returns></returns>
+        /// <exception cref="System.ArgumentException">Cannot get Food Data</exception>
         public GetSandwichResult GetAllSandwiches()
         {
             var result = new GetSandwichResult();
@@ -41,12 +48,33 @@ namespace MySandwitchFactory.Business
             }
             else
             {
-                throw new ArgumentException("Cannot get Food Deta");
+                throw new ArgumentException("Cannot get Food Data");
             }
 
             return result;
         }
 
-        
+        /// <summary>
+        /// Gets the beverages.
+        /// </summary>
+        /// <returns></returns>
+        /// <exception cref="System.ArgumentException">Cannot get Beverage Data</exception>
+        public GetBeverageResult GetAllBeverages()
+        {
+            var result = new GetBeverageResult();
+
+            if (_foodRepository != null)
+            {
+                result.Beverageses = _foodRepository.GetAllBeverages();
+            }
+            else
+            {
+                throw new ArgumentException("Cannot get Beverage Data");
+            }
+
+            return result;
+        }
+
+
     }
 }

@@ -52,7 +52,7 @@ namespace MySandwitchFactory.Common
 
             return companyDetailsModel;
         }
-
+        
         public List<Beverages> GetAllBeverages()
         {
             var result = new List<Beverages>();
@@ -62,140 +62,140 @@ namespace MySandwitchFactory.Common
                 Name = "Water Melon Juice",
                 Price = 360.00,
                 Sweetness = 2,
-                Category = BeverageCategories.FreshFruitJuice.ToString()
+                Category = BeverageCategoriesEnum.FreshFruitJuice.ToString()
             };
             var obj2 = new Beverages
             {
                 Name = "Lime Juice",
                 Price = 360.00,
                 Sweetness = 2,
-                Category = BeverageCategories.FreshFruitJuice.ToString()
+                Category = BeverageCategoriesEnum.FreshFruitJuice.ToString()
             };
             var obj3 = new Beverages
             {
                 Name = "Lime Soda",
                 Price = 360.00,
                 Sweetness = 2,
-                Category = BeverageCategories.FreshFruitJuice.ToString()
+                Category = BeverageCategoriesEnum.FreshFruitJuice.ToString()
             };
             var obj4 = new Beverages
             {
                 Name = "Orange Juice",
                 Price = 400.00,
                 Sweetness = 2,
-                Category = BeverageCategories.FreshFruitJuice.ToString()
+                Category = BeverageCategoriesEnum.FreshFruitJuice.ToString()
             };
             var obj5 = new Beverages
             {
                 Name = "Oragne & Ginger",
                 Price = 530.00,
                 Sweetness = 2,
-                Category = BeverageCategories.Smoothies.ToString()
+                Category = BeverageCategoriesEnum.Smoothies.ToString()
             };
             var obj6 = new Beverages
             {
                 Name = "Watermelon",
                 Price = 530.00,
                 Sweetness = 2,
-                Category = BeverageCategories.Smoothies.ToString()
+                Category = BeverageCategoriesEnum.Smoothies.ToString()
             };
             var obj7 = new Beverages
             {
                 Name = "Iced Caramel",
                 Price = 680.00,
                 Sweetness = 2,
-                Category = BeverageCategories.Macchiato.ToString()
+                Category = BeverageCategoriesEnum.Macchiato.ToString()
             };
             var obj8 = new Beverages
             {
                 Name = "Espresso",
                 Price = 380.00,
                 Sweetness = 2,
-                Category = BeverageCategories.Milky.ToString()
+                Category = BeverageCategoriesEnum.Milky.ToString()
             }; 
             var obj9 = new Beverages
             {
                 Name = "Caffe Americano",
                 Price = 460.00,
                 Sweetness = 2,
-                Category = BeverageCategories.Milky.ToString()
+                Category = BeverageCategoriesEnum.Milky.ToString()
             };
             var obj10 = new Beverages
             {
                 Name = "Hot Chocolate",
                 Price = 550.00,
                 Sweetness = 2,
-                Category = BeverageCategories.Milky.ToString()
+                Category = BeverageCategoriesEnum.Milky.ToString()
             };
             var obj11 = new Beverages
             {
                 Name = "Caffe Mocha",
                 Price = 580.00,
                 Sweetness = 2,
-                Category = BeverageCategories.Milky.ToString()
+                Category = BeverageCategoriesEnum.Milky.ToString()
             }; 
             var obj12 = new Beverages
             {
                 Name = "​Flat White",
                 Price = 450.00,
                 Sweetness = 2,
-                Category = BeverageCategories.Milky.ToString()
+                Category = BeverageCategoriesEnum.Milky.ToString()
             };
             var obj13 = new Beverages
             {
                 Name = "​English Breakfast Tea",
                 Price = 300.00,
                 Sweetness = 2,
-                Category = BeverageCategories.Tea.ToString()
+                Category = BeverageCategoriesEnum.Tea.ToString()
             };
             var obj14 = new Beverages
             {
                 Name = "​Hot Tea Ceylon Supreme",
                 Price = 300.00,
                 Sweetness = 2,
-                Category = BeverageCategories.Tea.ToString()
+                Category = BeverageCategoriesEnum.Tea.ToString()
             };
             var obj15 = new Beverages
             {
                 Name = "​Cookies N Coffee Shake",
                 Price = 680.00,
                 Sweetness = 2,
-                Category = BeverageCategories.Milky.ToString()
+                Category = BeverageCategoriesEnum.Milky.ToString()
             };
             var obj16 = new Beverages
             {
                 Name = "​Irish Coffee Shake",
                 Price = 680.00,
                 Sweetness = 2,
-                Category = BeverageCategories.Milky.ToString()
+                Category = BeverageCategoriesEnum.Milky.ToString()
             };
             var obj17 = new Beverages
             {
                 Name = "​Chocolate Ice Cream Shakes",
                 Price = 600.00,
                 Sweetness = 2,
-                Category = BeverageCategories.Milky.ToString()
+                Category = BeverageCategoriesEnum.Milky.ToString()
             };
             var obj18 = new Beverages
             {
                 Name = "​Oreo Shake",
                 Price = 680.00,
                 Sweetness = 2,
-                Category = BeverageCategories.Milky.ToString()
+                Category = BeverageCategoriesEnum.Milky.ToString()
             };
             var obj19 = new Beverages
             {
                 Name = "​Peach Ice Tea",
                 Price = 430.00,
                 Sweetness = 2,
-                Category = BeverageCategories.Tea.ToString()
+                Category = BeverageCategoriesEnum.Tea.ToString()
             };
             var obj20 = new Beverages
             {
                 Name = "​Lemon Ice Tea",
                 Price = 430.00,
                 Sweetness = 2,
-                Category = BeverageCategories.Tea.ToString()
+                Category = BeverageCategoriesEnum.Tea.ToString()
             };
 
             result.Add(obj1);
@@ -227,5 +227,8 @@ namespace MySandwitchFactory.Common
         //{
         //    throw new NotImplementedException();
         //}
+
+
+        
     }
 }

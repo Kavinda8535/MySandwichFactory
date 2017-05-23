@@ -11,5 +11,6 @@ namespace MySandwitchFactory.Portal.Common
     {
         List<SandwichModel> GetAllSandwiches();
         CompanyDetailsModel GetCompanyName();
+        List<Beverages> GetAllBeverages();
     }
 }

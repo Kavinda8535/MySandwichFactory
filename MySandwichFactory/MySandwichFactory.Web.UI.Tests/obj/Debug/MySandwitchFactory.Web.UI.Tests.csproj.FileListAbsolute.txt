@@ -99,3 +99,5 @@ E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\b
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\obj\Debug\MySandwitchFactory.Web.UI.Tests.csprojResolveAssemblyReference.cache
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\obj\Debug\MySandwitchFactory.Web.UI.Tests.dll
 E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\obj\Debug\MySandwitchFactory.Web.UI.Tests.pdb
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\MySandwitchFactory.DataAccess.dll
+E:\My Work\MySandwitchFactory\MySandwichFactory\MySandwichFactory.Web.UI.Tests\bin\Debug\MySandwitchFactory.DataAccess.pdb

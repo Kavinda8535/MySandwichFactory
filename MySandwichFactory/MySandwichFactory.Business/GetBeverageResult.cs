@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using MySandwitchFactory.Common.Domains;
-
 
 namespace MySandwitchFactory.Business
 {
-    public interface IFoodService
+    public class GetBeverageResult
     {
-       GetSandwichResult GetAllSandwiches();
-       GetBeverageResult GetAllBeverages();
+        public List<Beverages> Beverageses { get; set; }
     }
 }

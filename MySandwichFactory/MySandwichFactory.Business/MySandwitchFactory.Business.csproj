@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FoodService.cs" />
+    <Compile Include="GetBeverageResult.cs" />
     <Compile Include="GetSandwichResult.cs" />
     <Compile Include="Interfaces\IFoodService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
