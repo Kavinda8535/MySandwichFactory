@@ -105,7 +105,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MySandwichFactory.Web.UI\MySandwitchFactory.Web.UI.csproj">
       <Project>{6F7A24FA-ECF9-4716-8587-F42BA8C7204E}</Project>
-      <Name>AndrSandwich.Web.UI</Name>
+      <Name>MySandwitchFactory.Web.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
