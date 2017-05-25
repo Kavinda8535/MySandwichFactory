@@ -33,16 +33,16 @@ namespace API_Factory.Infastructure
             //throw new NotImplementedException();
         }
 
-        private static void RegisterTypes(IUnityContainer container)
-        {
-            throw new NotImplementedException();
-        }
+        //private static void RegisterTypes(IUnityContainer container)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
-        public static void DisposePerRequest(IDictionary contextItems)
-        {
-            var container = contextItems["perRequestContainer"] as IUnityContainer;
-            if (container != null)
-                container.Dispose();
-        }
+        //public static void DisposePerRequest(IDictionary contextItems)
+        //{
+        //    var container = contextItems["perRequestContainer"] as IUnityContainer;
+        //    if (container != null)
+        //        container.Dispose();
+        //}
     }
 }

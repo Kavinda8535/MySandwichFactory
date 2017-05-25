@@ -33,10 +33,10 @@ namespace MySandwitchFactory.Web.UI.Infastructure
             //throw new NotImplementedException();
         }
 
-        private static void RegisterTypes(IUnityContainer container)
-        {
-            throw new NotImplementedException();
-        }
+        //private static void RegisterTypes(IUnityContainer container)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         public static void DisposePerRequest(IDictionary contextItems)
         {
