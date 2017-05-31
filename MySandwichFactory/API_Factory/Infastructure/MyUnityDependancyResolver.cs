@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Web.Mvc;
+using System.Web.Http.Dependencies;
 using Microsoft.Practices.Unity;
+using IDependencyResolver = System.Web.Mvc.IDependencyResolver;
 
 namespace API_Factory.Infastructure
 {
-    public class MyUnityDependancyResolver : IDependencyResolver
+    public class MyUnityDependancyResolver :  IDependencyResolver, System.Web.Http.Dependencies.IDependencyResolver
     {
         private IUnityContainer _unityContainer;
 
@@ -41,6 +42,17 @@ namespace API_Factory.Infastructure
 
                 return new List<object>();
             }
+        }
+
+        public IDependencyScope BeginScope()
+        {
+            var child = _unityContainer.CreateChildContainer();
+            return new MyUnityDependancyResolver(child);
+        }
+
+        public void Dispose()
+        {
+            _unityContainer.Dispose();
         }
     }
 }

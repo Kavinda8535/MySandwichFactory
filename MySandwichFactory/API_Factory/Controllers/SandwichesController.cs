@@ -14,10 +14,10 @@ namespace API_Factory.Controllers
     {
         readonly IFoodService _foodService;
 
-        public SandwichesController()
-        {
-            _foodService = new FoodService();
-        }
+        //public SandwichesController()
+        //{
+            //_foodService = new FoodService();
+        //}
 
         public SandwichesController(IFoodService foodService)
         {

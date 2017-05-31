@@ -21,5 +21,10 @@ namespace API_Factory
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             Bootstrapper.Initialise();
         }
+
+        private void Application_EndRequest(object sender, EventArgs eventArgs)
+        {
+            Bootstrapper.DisposePerRequest(HttpContext.Current.Items);
+        }
     }
 }

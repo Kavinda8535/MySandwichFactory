@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Web.Http;
+using API_Factory.Infastructure;
 using Microsoft.Owin.Security.OAuth;
+using Microsoft.Practices.Unity;
 using Newtonsoft.Json.Serialization;
 
 namespace API_Factory
@@ -17,8 +19,23 @@ namespace API_Factory
             config.SuppressDefaultHostAuthentication();
             config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
 
+            
+            // Web API configuration and services
+            var container = new UnityContainer();
+            Bootstrapper.Initialise();
+            config.DependencyResolver = new MyUnityDependancyResolver(container);
+
+//            config.EnableCors();
+
             // Web API routes
             config.MapHttpAttributeRoutes();
+
+
+            
+
+
+
+
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",

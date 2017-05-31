@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Http;
 using System.Web.Mvc;
 using Microsoft.Practices.Unity;
 using MySandwitchFactory.Business;
@@ -28,6 +29,8 @@ namespace API_Factory.Infastructure
             container.RegisterType<IFoodService, FoodService>();
             container.RegisterType<IFoodRepository, FoodRepository>();
 
+            GlobalConfiguration.Configuration.DependencyResolver = new MyUnityDependancyResolver(container);
+
             //RegisterTypes(container);
             return container;
             //throw new NotImplementedException();
@@ -38,11 +41,11 @@ namespace API_Factory.Infastructure
         //    throw new NotImplementedException();
         //}
 
-        //public static void DisposePerRequest(IDictionary contextItems)
-        //{
-        //    var container = contextItems["perRequestContainer"] as IUnityContainer;
-        //    if (container != null)
-        //        container.Dispose();
-        //}
+        public static void DisposePerRequest(IDictionary contextItems)
+        {
+            var container = contextItems["perRequestContainer"] as IUnityContainer;
+            if (container != null)
+                container.Dispose();
+        }
     }
 }
